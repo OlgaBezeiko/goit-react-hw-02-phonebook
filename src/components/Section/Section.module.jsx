@@ -7,9 +7,15 @@ export const SectionContainer = styled.section`
   justify-content: center;
   justify-items: center;
   gap: 14px;
-  
 `;
 
 export const Title = styled.h2`
   margin: 0;
+  cursor: pointer;
+  transition: text-shadow 0.3s ease-in-out;
+
+  &:hover {
+    text-shadow: 0 0 5px yellow; /* Змініть #f00 на yellow або #ff0 */
+    font-size: 28px;
+  }
 `;
