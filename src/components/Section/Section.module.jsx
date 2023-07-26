@@ -7,6 +7,7 @@ export const SectionContainer = styled.section`
   justify-content: center;
   justify-items: center;
   gap: 14px;
+  
 `;
 
 export const Title = styled.h2`
