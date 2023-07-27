@@ -15,7 +15,7 @@ export const Title = styled.h2`
   transition: text-shadow 0.3s ease-in-out;
 
   &:hover {
-    text-shadow: 0 0 5px yellow; /* Змініть #f00 на yellow або #ff0 */
+    text-shadow: 0 0 5px yellow; 
     font-size: 28px;
   }
 `;
